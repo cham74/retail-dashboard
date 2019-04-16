@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+
+import 'react-dropdown/style.css';
+import "bootstrap/dist/css/bootstrap.css";
+import './index.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
